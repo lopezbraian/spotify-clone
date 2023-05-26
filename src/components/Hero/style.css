@@ -1,0 +1,85 @@
+.get-premium {
+  background-color: #1d75de;
+  color: #fff;
+}
+.btn-container {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.get-premium-container {
+  max-width: 766px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-top: 111px;
+  padding-bottom: 111px;
+}
+
+.get-premium-container h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.get-premium-container h1 {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.get-premium-container h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.get-premium-container p {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.features {
+  padding-top: 72px;
+  height: 571px;
+}
+.features > h2 {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 46px;
+  text-align: center;
+}
+.container-feature {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  margin-top: 69px;
+}
+.card-feature {
+  list-style: none;
+  height: 283px;
+  width: 285px;
+  text-align: center;
+}
+.card-feature > img {
+  margin-bottom: 40px;
+  height: 142px;
+  width: 142px;
+}
+
+.card-feature > p {
+  max-width: 200px;
+  margin: 0 auto;
+  margin-top: 12px;
+}
