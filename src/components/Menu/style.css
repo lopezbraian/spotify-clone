@@ -1,0 +1,27 @@
+.header-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+}
+.header {
+  background-color: black;
+}
+
+.header__ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  color: #fff;
+}
+.header__ul > li {
+  list-style: none;
+}
+
+.header__ul__li-text-grey {
+  color: #d9dadc;
+}

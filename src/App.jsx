@@ -1,9 +1,10 @@
 import "./App.css";
+import Menu from "./components/Menu/Menu";
 
 function App() {
   return (
-    <div>
-      <h1>Spotify clone !</h1>
+    <div id="app">
+      <Menu />
     </div>
   );
 }
