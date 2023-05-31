@@ -5,7 +5,7 @@ const Menu = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <img src="/public/spotifylogo.svg" alt="Spotify logo" />
+          <img src="/spotifylogo.svg" alt="Spotify logo" />
         </div>
         <nav className="nav">
           <ul className="header__ul">

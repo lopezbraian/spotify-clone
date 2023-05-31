@@ -3,27 +3,27 @@ import "./style.css";
 
 const features = [
   {
-    img: "/public/features/image1.png",
+    img: "/features/image1.png",
     title: "Ad-free music listening",
     subtitle: "Enjoy uninterrupted music.",
   },
   {
-    img: "/public/features/image2.png",
+    img: "/features/image2.png",
     title: "Offline playback",
     subtitle: "Save your data by listening offline.",
   },
   {
-    img: "/public/features/image3.png",
+    img: "/features/image3.png",
     title: "Play everywhere",
     subtitle: "Listen on your speakers, TV, and other favorite devices.",
   },
   {
-    img: "/public/features/image4.png",
+    img: "/features/image4.png",
     title: "Pay your way",
     subtitle: "Prepay with Paytm, UPI, and more.",
   },
   {
-    img: "/public/features/image6.png",
+    img: "/features/image6.png",
     title: "Cancel anytime",
     subtitle: "No contracts, no commitments.",
   },
