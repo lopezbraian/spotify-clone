@@ -34,3 +34,10 @@
 .plans-icons li {
   list-style: none;
 }
+
+.plans-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 20px;
+}

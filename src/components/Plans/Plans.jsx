@@ -1,4 +1,79 @@
 import "./style.css";
+import CardPlan from "./components/CardPlan";
+
+const dataPlans = [
+  {
+    id: 1,
+    month_free: false,
+    one_time_plans_available: true,
+    title: "Mini",
+    price: "7",
+    typePlan: "day",
+    platforms: {
+      mobile: 1,
+      desktop: 0,
+    },
+    features: [
+      "Ad-free music listening on mobile",
+      "Group session",
+      "Download 30 songs on 1 mobile device",
+    ],
+  },
+  {
+    id: 2,
+    month_free: true,
+    one_time_plans_available: true,
+    title: "Individual",
+    price: "119",
+    typePlan: "month",
+    platforms: {
+      mobile: -1,
+      desktop: 1,
+    },
+    features: [
+      "Ad-free music listening on mobile",
+      "Group session",
+      "Download 10k songs/devices on 5 devices",
+    ],
+  },
+  {
+    id: 3,
+    month_free: true,
+    one_time_plans_available: true,
+    title: "Duo",
+    price: "149",
+    typePlan: "month",
+    platforms: {
+      mobile: -1,
+      desktop: 2,
+    },
+    features: [
+      "For couples who live together",
+      "Ad-free music listening on mobile",
+      "Group session",
+      "Download 10k songs/devices on 5 devices per account",
+    ],
+  },
+  {
+    id: 4,
+    month_free: true,
+    one_time_plans_available: true,
+    title: "Family",
+    price: "179",
+    typePlan: "month",
+    platforms: {
+      mobile: -1,
+      desktop: 6,
+    },
+    features: [
+      "For couples who live together",
+      "Block explicit music",
+      "Ad-free music listening on mobile",
+      "Group session",
+      "Download 10k songs/device on 5 devices",
+    ],
+  },
+];
 
 const Plans = (props) => {
   return (
@@ -27,6 +102,11 @@ const Plans = (props) => {
           <img src="/companies/upi.png" alt="visa" />
         </li>
       </ul>
+      <div className="plans-list">
+        {dataPlans.map((data) => (
+          <CardPlan key={data.id} data={data} />
+        ))}
+      </div>
     </div>
   );
 };

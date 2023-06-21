@@ -1,0 +1,21 @@
+.label {
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: fit-content;
+}
+
+.label-filled {
+  background-color: #0d72ea;
+  color: #fff;
+  border: 1px solid transparent;
+}
+.label-outlined {
+  background-color: #fff;
+  border: 1px solid #0d72ea;
+  color: #0d72ea;
+}

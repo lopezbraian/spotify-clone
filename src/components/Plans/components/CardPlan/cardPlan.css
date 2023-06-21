@@ -1,0 +1,41 @@
+.card-plan {
+  background-color: #fff;
+  padding: 16px;
+  box-shadow: 0px 8px 0px #ffffff, 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 269px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 12px;
+}
+.card-plan__footer {
+  margin-top: auto;
+  text-align: center;
+}
+.titles__h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.titles__h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.titles__p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}

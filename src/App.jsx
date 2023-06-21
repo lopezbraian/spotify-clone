@@ -8,7 +8,6 @@ function App() {
     <div id="app">
       <Menu />
       <Hero />
-      {/* crear plans */}
       <Plans />
     </div>
   );
